@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML page 2</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<h1 align="center" style="color: white">What is CSS?</h1>
+<img src="https://ap2vnoida.training/media/images/courses/css-trainig-in-noida-1.jpg"
+     class="center"
+     alt="html2 img">
+<small class="center" style="color: white"><i>January 16, 2019</i></small>
+<br>
+<div class="content center tranparDiv">
+    <p>CSS stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets. It’s a style sheet which defines <b>how to display</b>
+        HTML elements. <b>CSS solves the problem</b> of designing same thing again and again which little modifications. </p>
+    <h6>Types of CSS:</h6>
+    <ol>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+</div>
+
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>

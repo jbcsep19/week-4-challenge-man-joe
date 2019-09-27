@@ -14,11 +14,13 @@
 </head>
 <body>
 
-<div class="navBar" th:fragment="navlinks">
-    <nav class="nav">
-        <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/classes">About</a>
-        <a class="nav-link" href="/student">Authors</a>
+<div class="navBar bg-transparent" th:fragment="navlinks">
+    <nav class="navbar navbar-light bg-transparent">
+        <form class="form-inline">
+            <a href="/" class="btn btn-dark" role="button">Home</a>
+            <a href="/about" class="btn btn-dark" role="button">About</a>
+            <a href="/author" class="btn btn-dark" role="button">Author</a>
+        </form>
     </nav>
 </div>
 

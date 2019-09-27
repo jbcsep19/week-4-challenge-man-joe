@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Core page 1</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<h1 align="center" style="color: white">Variables</h1>
+<img src="https://cdn.lynda.com/course/377484/377484-636807313660331603-16x9.jpg"
+     class="center"
+     alt="core2 img">
+<small class="center" style="color: white"><i>January 12, 2019</i></small>
+<br>
+<div class="content center tranparDiv">
+    <p>Programs would be pretty boring if the only thing you could do was print things on the screen. We would like
+        our programs to be interactive. Variables enable our program to save and retrieve data while the program is
+        being used.</p>
+    <ul>
+        <li>A variable stores a value that can change as a program executes.</li>
+        <li>Before you can use a variable, you must declare its data type and initialize it by assigning a value to it.</li>
+        <li>To declare and initialize more than one variable for a single data type in a single statement,
+            use commas to separate the assignments.</li>
+        <li>To identify float values, you must type an f or F after the number. To identify long values, you must
+            type an l or L after the number.</li>
+    </ul>
+</div>
+
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>

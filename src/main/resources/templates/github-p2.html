@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub page 2</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<h1 align="center" style="color: white">Git Security</h1>
+<img src="https://res.cloudinary.com/jhoang3/image/upload/v1569558295/w4_challenge/aHViPTcyNTE0JmNtZD1pdGVtZWRpdG9yaW1hZ2UmZmlsZW5hbWU9aXRlbWVkaXRvcmltYWdlXzVkOGM5MDgxNTQ2MmYucG5nJnZlcnNpb249MDAwMCZzaWc9OGY3ZjM5YzMwYmY3OTA3ZjJlNmNhNzAyMjFjMjE1MmU_253D_rshmep.png"
+     class="center"
+     alt="github-p2 img">
+<small class="center" style="color: white"><i>September 26, 2019</i></small>
+<br>
+<div class="content center tranparDiv">
+    <p>Necessity is often referred to as the mother of invention. So when you happen to be Linus Torvalds,
+        a little bit of frustration can go a long way in creating something that leaves a lasting impact.</p>
+    <p>Back in 2005, Torvalds was unsatisfied with the source control management (SCM) tools at his disposal.
+        He complained that it simply took too long to apply patches and update the associated metadata, factors he
+        knew could slow down the development of his Linux kernel.</p>
+    <p>With no other good free options available, Torvalds got to work on creating his own distributed source control
+        system, eventually creating Git. In the years since then, Git has become the standard for how teams share and
+        collaborate on code and a primary driver of the open source ecosystem. Companies offering Git solutions like
+        GitHub and GitLab have grown to become valuable companies and essential platforms for developers.
+    </p>
+    <h2>Git Security: Getting it Right</h2>
+    <p>However, despite its widespread use, many are still making critical mistakes in how they use Git and
+        compromising their security. </p>
+    <p>
+        In hopes of learning from the mistakes of others and not making them ourselves, I have compiled a list of
+        the top 5 Git security mistakes along with some suggestions on how to keep your code and Git repos secure.
+    </p>
+    <ol>
+        <li>Hardcoding Sensitive Data</li>
+        <li>Ignoring .gitignore</li>
+        <li>Using Unsigned Commits</li>
+        <li>Poor Access Control</li>
+        <li>Not Patching</li>
+    </ol>
+</div>
+
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Author Page</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<h1 align="center" style="color: white">Author Page</h1>
+<br><br><br>
+
+<div class="card mx-auto" style="width: 18rem;">
+    <img class="card-img-top" src="https://t3.ftcdn.net/jpg/00/57/05/34/240_F_57053412_xMKT5BaSetONDgCldFnLliqZyUltHgB5.jpg"
+         alt="Author Image">
+    <div class="card-body">
+        <h5 class="card-title">Joe Doe</h5>
+        <p class="card-text">An Elusive Computer Science student who is passionate about Boba.</p>
+    </div>
+    <ul class="list-group list-group-flush" style="list-style-type: none;padding-left: 0">
+        <li class="list-group-item">
+            <img src="https://softwareengineeringdaily.com/wp-content/uploads/2019/05/facebook-logo-png-5a35528eaa4f08.7998622015134439826976.jpg"
+                 height="30"
+                 width="30"
+                 alt="facebook icon"
+                ><a href="www.facebook.com/joedoe">www.facebook.com/joedoe</a>
+        </li>
+        <li class="list-group-item">
+            <img src="https://png.pngtree.com/element_our/png/20181011/linkedin-social-media-icon-design-template-vector-png_127000.jpg"
+                 height="30"
+                 width="30"
+                 alt="LinkedIn icon"
+            ><a href="www.linkedIn.com/in/doejoe">www.linkedin.com/in/doejoe</a>
+        </li>
+        <li class="list-group-item">
+            <img src="https://i.dlpng.com/static/png/5521485-twitter-logo-transparent-png-79-images-in-collection-page-1-twitter-logo-transparent-300_302_preview.png"
+                 height="30"
+                 width="30"
+                 alt="Twitter icon"
+            ><a href="www.twitter.com/joedoe">www.twitter.com/joedoe</a>
+        </li>
+        <li class="list-group-item">
+            <img src="https://banner2.kisspng.com/20180709/ibp/kisspng-computer-icons-github-symbol-clip-art-github-5b441879713e57.1760018415311893694639.jpg"
+                 height="30"
+                 width="30"
+                 alt="Github icon"
+            ><a href="www.github.com/joedoe">www.github.com/joedoe</a>
+        </li>
+    </ul>
+</div>
+
+
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>

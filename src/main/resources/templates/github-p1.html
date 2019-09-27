@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub page 1</title>
+    <div th:insert="base :: head"></div>
+</head>
+<body>
+<div th:insert="base :: navlinks"></div>
+<h1 align="center" style="color: white">Free Unlimited Private Repos!</h1>
+<img src="https://res.cloudinary.com/jhoang3/image/upload/v1569553602/w4_challenge/images_ozyqnk.jpg"
+     class="center"
+     alt="github-p1 img">
+<small class="center" style="color: white"><i>January 8, 2019</i></small>
+<br>
+<div class="content center tranparDiv">
+    <p>Redmond is starting this year in a benevolent mood and has announced GitHub will now support free private
+    repos.
+    Seriously, you can even have unlimited of them.</p>
+    <p>The slight catch is that free private repos are limited to three collaborators – fair enough, a service needs to
+        make cash somewhere. Public repos are still free and can have unlimited collaborators.</p>
+    <p>Microsoft is also simplifying its enterprise offering by unifying Enterprise Cloud (formerly GitHub Business
+        Cloud)
+        and Enterprise Server (formerly GitHub Enterprise).</p>
+    <p>Organisations that want the flexibility to use GitHub in a cloud or self-hosted configuration can now access both
+        enterprise products at one per-seat price. Developers can work seamlessly across both environments using GitHub
+        Connect to link them.</p>
+    <p>GitHub’s Pro tier costs $7/month and includes unlimited collaborators as well as access to code review tools.
+        A specific ‘Teams’ tier costs $9/month. Finally, the Enterprise tier is available for $21/month.</p>
+</div>
+
+<div th:insert="base :: bootstrapScripts"></div>
+</body>
+</html>

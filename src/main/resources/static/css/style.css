@@ -1,12 +1,35 @@
 body{
     background-color: darkslategray;
+    background-image: url("https://res.cloudinary.com/jhoang3/image/upload/v1569556786/w4_challenge/nano53bo7dn21_w0v6ec.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navBar{
-    background-color: burlywood;
+    background-color: lightskyblue;
 }
 .homeImg{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content {
+    background-color: whitesmoke;
+}
+
+.tranparDiv {
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+div.author {
+    float: none;
+    margin: 0 auto 10px;
 }
